@@ -1,0 +1,36 @@
+{
+  "name": "typesetting",
+  "version": "1.0.0",
+  "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
+  "contributors": [
+    {
+      "name": "Scott de Jonge",
+      "email": "dejonge.scott@gmail.com",
+      "url": "http://scottdejonge.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottdejonge/typesetting"
+  },
+  "bugs": {
+    "url": "https://github.com/scottdejonge/typesetting/issues"
+  },
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "webpack -d --watch",
+    "build": "webpack -d",
+    "deploy": "webpack -p"
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "path": "^0.12.7",
+    "postcss": "^5.2.5",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^1.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}
