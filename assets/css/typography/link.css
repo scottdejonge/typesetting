@@ -1,0 +1,11 @@
+a {
+	color: blue;
+	text-decoration: none;
+	transition: color 200ms ease-in-out;
+	
+	&:hover,
+	&:focus {
+		color: currentColor;
+		text-decoration: none;
+	}
+}
