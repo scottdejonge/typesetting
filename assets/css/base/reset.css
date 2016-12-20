@@ -38,14 +38,7 @@ dd,
 dt,
 ul > li,
 ol > li,
-blockquote,
-cite,
-.field,
-fieldset,
-label,
-input,
-textarea,
-.select {
+blockquote {
 
 	&:first-child {
 		margin-top: 0;
