@@ -16,7 +16,8 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('[name].css'),
     new BrowserSyncPlugin({
-      proxy: 'dev.typesetting'
+      proxy: 'dev.typesetting',
+      open: false
     }),
   ],
   module: {
@@ -33,7 +34,11 @@ module.exports = {
   postcss: function (webpack) {
     return [
       require("postcss-import")(),
-      require("postcss-cssnext")(),
+      require("postcss-cssnext")({
+        features: {
+          rem: false
+        }
+      }),
     ]
   }
 };
