@@ -28,8 +28,12 @@ module.exports = {
         includes: [
           path.join(__dirname, 'assets/css'),
         ]
+      },
+      {
+        test: /\.(eot|woff|woff2|ttf|svg|png|jpe?g|gif)(\?\S*)?/,
+        loader: 'url?limit=8000&name=[name].[ext]&publicPath=/typesetting/dist/&outputPath=/'
       }
-    ],
+    ]
   },
   postcss: function (webpack) {
     return [
