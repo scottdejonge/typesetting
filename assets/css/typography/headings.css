@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.6em;
+	font-size: 1.5em;
 	line-height: 1.35;
 
 	& + h4 {
@@ -42,7 +42,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.4em;
+	font-size: 1.35em;
 	line-height: 1.35;
 
 	& + h5 {
@@ -61,6 +61,5 @@ h5 {
 
 h6 {
 	font-size: 1em;
-	font-weight: 600;
 	line-height: 1.35;
 }
