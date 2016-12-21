@@ -1,11 +1,11 @@
 :root {
 	font-size: 20px;
 
-	@media (--l-up) {
+	@media (--xl) {
 		font-size: 24px;
 	}
 
 	@media (--xs) {
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
