@@ -7,6 +7,7 @@ var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 module.exports = {
   entry: {
     bundle: __dirname + '/assets/app.js',
+    font: __dirname + '/assets/font.js',
   },
   output: {
     path: __dirname + '/dist',
