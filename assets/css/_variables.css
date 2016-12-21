@@ -12,10 +12,10 @@
 	@custom-media --m (min-width: 1024px) and (max-width: 1279px);
 	@custom-media --m-up (min-width: 1024px);
 	@custom-media --m-down (max-width: 1279px);
-	@custom-media --l (min-width: 1280px) and (max-width: 1439px);
+	@custom-media --l (min-width: 1280px) and (max-width: 1679px);
 	@custom-media --l-up (min-width: 1280px);
-	@custom-media --l-down (max-width: 1439px);
-	@custom-media --xl (min-width: 1440px);
+	@custom-media --l-down (max-width: 1679px);
+	@custom-media --xl (min-width: 1680px);
 
 
 	/**
